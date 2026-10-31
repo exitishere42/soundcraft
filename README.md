@@ -17,6 +17,10 @@
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-purple">
 </p>
 
+<p align="center">
+  <img src="preview.png" width="800" alt="SoundCraft In-Game Preview">
+</p>
+
 ---
 
 ## Features
