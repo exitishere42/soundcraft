@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "soundcraft",
+  "version": "${version}",
+  "name": "SoundCraft",
+  "description": "Universal in-game media player, live LRCLIB lyrics, and Dynamic Island HUD for Minecraft.",
+  "authors": [
+    "exitishere42"
+  ],
+  "contact": {
+    "homepage": "https://github.com/exitishere42/soundcraft",
+    "sources": "https://github.com/exitishere42/soundcraft"
+  },
+  "license": "MIT",
+  "icon": "assets/soundcraft/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.exit.soundcraft.SoundCraftClient"
+    ]
+  },
+  "mixins": [
+    "soundcraft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
